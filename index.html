@@ -494,7 +494,14 @@
             <hr />
           </div>
           <div class="col-md-8 col-md-offset-2">
-            <form method= "post" action="mail/contact_me.php">
+            <form action="mail/contact.php" method="post">
+              First Name: <input type="text" name="first_name"><br>
+              Last Name: <input type="text" name="last_name"><br>
+              Email: <input type="text" name="email"><br>
+              Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+              <input type="submit" name="submit" value="Submit">
+              </form>
+            <!-- <form method= "post" action="mail/contact_me.php">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -536,7 +543,7 @@
               <input type="submit" name ="submit" value="Submit">
               
              
-            </form>
+            </form> -->
             <div class="social">
               <ul>
                 <li>

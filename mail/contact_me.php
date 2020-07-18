@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // Check for empty fields
 echo "YE";
 if(empty($_POST['name'])  		||
@@ -26,4 +26,4 @@ $headers = "From: noreply@yourdomain.com". "\r\n"; // This is the email address 
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
-?>
+?> -->
