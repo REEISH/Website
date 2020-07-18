@@ -1,5 +1,6 @@
 <?php
 // Check for empty fields
+echo "YE";
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['message'])	||
@@ -14,8 +15,8 @@ $name = $_POST['name'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
 
-echo($name)
-echo("YESSS")	
+echo $name
+echo "YESSS" 	
 // Create the email and send the message
 // $to = 'yourname@yourdomain.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $to = 'divanshigupta99@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
